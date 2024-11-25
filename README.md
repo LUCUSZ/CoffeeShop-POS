@@ -1,31 +1,24 @@
-# Welcome to Coffee Shop POS project
+# Coffee Shop POS Project ☕️
 
-## Project info
+This is a basic **Point of Sale (POS)** system designed for a coffee shop. It is developed as a project for **Database Systems (CSS325)** and **Database Programming Laboratory (CSS326)** at Sirindhorn International Institute of Technology (SIIT), Thammasat University.
 
+## Features
+- Sales Overview
+- Product Management
+- Staff/Role Management
+- Order History
+- POS
 
+## Tech Stack 
+1. **[Vite](https://vitejs.dev/)**
+2. **[TypeScript](https://www.typescriptlang.org/)**
+3. **[React](https://reactjs.org/)**
+4. **[shadcn-ui](https://shadcn.dev/)**
+5. **[Tailwind CSS](https://tailwindcss.com/)**
+6. **[Supabase](https://supabase.com/)** 
 
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
+## Made by Kaidow 🍳
+### Team Members 
+- **Saharat Yuanthong** (6522770799) - [GitHub: LUCUSZ](https://github.com/LUCUSZ)
+- **Potcharaphon Eaksil** (6522790201) - [GitHub: guysogood](https://github.com/guysogood)
+- **Kanapitch Khamjorn** (6522790276) - [GitHub: Joseph-eiei](https://github.com/Joseph-eiei)
