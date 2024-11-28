@@ -86,11 +86,11 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex justify-center items-center bg-gray-50 min-h-screen">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-2 text-center">
           <div className="flex justify-center">
-            <Coffee className="h-12 w-12 text-primary" />
+            <Coffee className="w-12 h-12 text-primary" />
           </div>
           <CardTitle className="text-2xl">Welcome Back</CardTitle>
           <CardDescription>Sign in to your account to continue</CardDescription>
@@ -99,14 +99,14 @@ const Login = () => {
         <CardContent>
           {error && (
             <Alert variant="destructive" className="mb-4">
-              <AlertTriangle className="h-4 w-4" />
+              <AlertTriangle className="w-4 h-4" />
               <AlertDescription>{error}</AlertDescription>
             </Alert>
           )}
 
           <form onSubmit={handleLogin} className="space-y-4">
             <div className="space-y-2">
-              <label htmlFor="username" className="text-sm font-medium">
+              <label htmlFor="username" className="font-medium text-sm">
                 Email
               </label>
               <Input
@@ -118,7 +118,7 @@ const Login = () => {
               />
             </div>
             <div className="space-y-2">
-              <label htmlFor="password" className="text-sm font-medium">
+              <label htmlFor="password" className="font-medium text-sm">
                 Password
               </label>
               <Input
@@ -138,24 +138,14 @@ const Login = () => {
                 "Loading..."
               ) : (
                 <>
-                  <LogIn className="h-4 w-4 mr-2" />
+                  <LogIn className="mr-2 w-4 h-4" />
                   Sign In
                 </>
               )}
             </Button>
           </form>
 
-          <div className="pt-4">
-            <Button
-              type="button"
-              variant="outline"
-              className="w-full"
-              onClick={createInitialUsers}
-            >
-              <UserPlus className="h-4 w-4 mr-2" />
-              Create Test Users
-            </Button>
-          </div>
+          
         </CardContent>
       </Card>
     </div>
